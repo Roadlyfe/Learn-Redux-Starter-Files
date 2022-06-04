@@ -27,3 +27,11 @@ const router = (
 )
 
 render(router, document.getElementById('root'));
+
+
+// import Raven from 'raven-js/src/raven';
+// import { sentry_url } from './data/config';
+
+// Raven.config(sentry_url).install();
+
+// console.log(window.doesNotExist.nope)
